@@ -1,0 +1,6 @@
+README for HW2
+Use make to create files
+Program takes input file, and prints output on an output file.
+I used stack overflow to help debug my code but all the actual code is my own. Once I got the linked list set up and all my classes, the most challenging part was grabbing the 
+Input and splitting it into chess pieces to be placed on the board.
+This program takes a reference square, checks if there is a piece there, checks if the entire board is valid or not (meaning if two pieces occupy the same square) and then if the piece at the reference point is able to attack an enemy chesspiece.

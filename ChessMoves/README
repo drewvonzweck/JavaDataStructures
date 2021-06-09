@@ -1,0 +1,14 @@
+//Code written by Drew von Zweck
+//November 16, 2018
+//code written in JAVA
+//CMPS12B Fall 2018
+//compile using make
+//clean using make clean
+//run using java ChessMoves <inputfile> <outputfile>
+
+This program takes a line of input at a time, storing chess pieces on a board until 
+it encounters a simicolon at which point it begins a series of moves decided by the input.
+If all the moves are legal the output for that ChessBoard is “legal”
+If any of the moves are illegal the output is “illegal” followed by 4 integers describing the move that was illegal.
+This code is all my own and none was copied from any other sources.
+A lot of this code is built off HW2 (ChessBoard.java)

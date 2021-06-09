@@ -1,0 +1,14 @@
+// code written by Drew von Zweck
+// November 24, 2018
+// CMPS12B
+//compile with ‘make’
+//clean with ‘make clean’
+//run with ‘java NQueens <inputfile> <outputfile> ‘
+	
+This program uses a stack to take the size of a chessboard given by the input,
+and pairs of integers that represent the coordinates of Queens on this chessboard.
+What the code does is place a queen in every empty column so that none of the queens 
+can attack each other. Once finding a solution it prints out the pairs of integers representing the positions of each queen to the output file. If no solution is possible then it prints “no solution” to the output file. Each line of input and output represents a new ChessBoard.
+
+//code written in JAVA
+//all code is my own

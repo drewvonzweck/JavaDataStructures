@@ -1,0 +1,7 @@
+Program that accepts input as a file and an output file.
+Reads this file and places N queens on an N by N chessboard.
+If there is no solution it prints “No Solution” to output file.
+
+I went to small group tutoring and received some help setting up an algorithm ( I cannot remember the tutors name ) , but had to abandon most of it anyways as I came across roadblock after roadblock. The algorithm that worked actually required the least functions and was the most simple!!
+
+All this code is my own. A few websites helped me grasp the pseudo code and algorithm involved such as https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/

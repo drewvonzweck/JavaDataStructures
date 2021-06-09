@@ -1,0 +1,18 @@
+//Code by Drew von Zweck
+//November 26, 2018
+//code written in C
+//compile with “make”
+//clean with “make clean”
+//Check for leaks with “make check”
+// run using ./queueClient <inputfile> <outputfile>
+
+This Program uses a .h and .c file to show ABT in the C language. It implements
+a QUEUE to store integers given by the output line by line.
+P from the input means print the queue as is, if empty it prints an empty line.
+E means enqueue an integer to the queue.
+D means dequeue an integer from the queue.(FIFO) if there is nothing to dequeue, then
+It prints “empty”.
+
+
+Running “make check” won’t work in the Mac OS terminal but it works on the unix
+When running valgrind on Unix, there were 0 leaks reported.
